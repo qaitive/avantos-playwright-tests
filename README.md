@@ -44,12 +44,12 @@ This application enables users to:
 
 ### Installation
 
-Precondition:
+
 1. Clone the mock server repository : git clone https://github.com/mosaic-avantos/frontendchallengeserver.git
 2. cd frontendchallengeserver
 3. npm start
 
-1. Clone the repository
+1. Clone this repository
 2. Install dependencies:
 
 ```bash
