@@ -44,7 +44,12 @@ This application enables users to:
 
 ### Installation
 
-1. Clone this repository
+Precondition:
+1. Clone the mock server repository : git clone https://github.com/mosaic-avantos/frontendchallengeserver.git
+2. cd frontendchallengeserver
+3. npm start
+
+1. Clone the repository
 2. Install dependencies:
 
 ```bash
@@ -87,14 +92,6 @@ Run tests with:
 npm test
 
 ```
-Run UI Playwright tests:
-
-```bash
-cd playwright-tests
-npm  run test
-
-```
-> **Note:** See README.md in ./playwright-tests
 
 ## Project Structure
 
