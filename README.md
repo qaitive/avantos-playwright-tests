@@ -44,20 +44,20 @@ This application enables users to:
 
 ### Installation
 
+Precondition:
+git clone https://github.com/mosaic-avantos/frontendchallengeserver.git
+cd frontendchallengeserver
+npm start
 
-1. Clone the mock server repository : git clone https://github.com/mosaic-avantos/frontendchallengeserver.git
-2. cd frontendchallengeserver
-3. npm start
-
-1. Clone this repository
-2. Install dependencies:
+Clone this repository
+Install dependencies:
 
 ```bash
 npm install
 
 ```
 
-3. Create a `.env` file in the root directory with:
+Create a `.env` file in the root directory with:
 
 ```ini
 VITE_SERVER_URL=your_api_url_here
