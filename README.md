@@ -43,12 +43,12 @@ This application enables users to:
 - npm or yarn
 
 ### Installation
-
+```bash
 Precondition:
 git clone https://github.com/mosaic-avantos/frontendchallengeserver.git
 cd frontendchallengeserver
 npm start
-
+```
 Clone this repository
 Install dependencies:
 
