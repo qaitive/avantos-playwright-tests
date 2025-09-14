@@ -1,0 +1,13 @@
+{
+  "name": "avantos-playwright-tests",
+  "version": "1.0.0",
+  "author": "Veljko Jovancic",
+  "scripts": {
+    "test": "playwright test",
+    "report": " allure serve allure-results"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "allure-playwright": "^3.4.1"
+  }
+}
