@@ -1,10 +1,10 @@
 import { test as base, expect } from '@playwright/test'
 import { GraphPage } from '../pages/graphPage'
-import { Drawer } from '../pages/components/drawer'
+import { Drawer } from '../pages/drawerPage'
 
 interface PageObjects {
   graphPage: GraphPage
-  drawer: Drawer
+  drawer: Drawer // drawer dialog component registered as fixture
 }
 
 export const test = base.extend<PageObjects>({

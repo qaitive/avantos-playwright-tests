@@ -1,5 +1,5 @@
 import { Page, Locator, expect } from '@playwright/test'
-import { BasePage } from '../basePage'
+import { BasePage } from './basePage'
 
 // Interface representing a field with its label and Locator
 export interface Field {

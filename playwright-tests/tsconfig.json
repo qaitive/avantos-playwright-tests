@@ -1,24 +1,23 @@
 {
-    "compilerOptions": { 
-      "target": "ES6",                          // Use latest JS features
-      "module": "commonjs",                        // Compatible with Node.js
-      "strict": true,                              // Enable all strict type checks
-      "esModuleInterop": true,                     // Allow default imports from CommonJS modules
-      "moduleResolution": "node",                  // Node.js-style resolution
-      "resolveJsonModule": true,                   // Allow importing JSON
-      "isolatedModules": true,                     // Required for Playwright with TS
-      "noEmit": true,                              // Don't output compiled JS
-      "forceConsistentCasingInFileNames": true,    // Avoid issues on case-sensitive file systems
-      "skipLibCheck": true,                        // Faster builds by skipping type checks of lib files
-      "types": ["playwright"]  ,
-      "paths": {
+  "compilerOptions": { 
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["playwright"],
+    "paths": {
       "@fixtures/*": ["./fixtures/*"],
-      "@pages/*": ["../pages/*"]
-    },                    
-    },
-    "include": [
-       "tests/**/*.ts", // Include your test files 
-        "pages"        // Include page files
-    ]
-  }
-  
+      "@pages/*": ["./pages/*"]
+    }
+  },
+  "include": [
+    "tests/**/*.ts",
+    "pages/**/*.ts"
+  ]
+}
